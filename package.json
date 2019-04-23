@@ -1,0 +1,22 @@
+{
+  "name": "simplelog",
+  "version": "1.0.0",
+  "description": "Really simple logging to Splunk example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipockdas/simplelog.git"
+  },
+  "author": "Dipock Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dipockdas/simplelog/issues"
+  },
+  "homepage": "https://github.com/dipockdas/simplelog#readme",
+  "dependencies": {
+    "splunk-logging": "^0.10.1"
+  }
+}
