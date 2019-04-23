@@ -1,7 +1,7 @@
 let SplunkLogger = require("splunk-logging").Logger;
  
 let connections = [{
-        token: "50280450-a828-4f20-8da5-b8b935fec6e4",
+        token: "PUT-YOUR-HEC-TOKEN-HERE",
         url: "https://127.0.0.1:8088"
     },
     {
