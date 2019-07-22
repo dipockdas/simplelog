@@ -8,7 +8,7 @@ Get the node dependencies (splunk logging) by running npm install from the comma
 
 Step 2:
 Log into your Splunk instance, navigate to Settings »  Data Inputs » HTTP Event Collector. (http://localhost:8000/en-US/manager/search/http-eventcollector). 
-Create a new token and copy the Token Value to the index.js file and save the edits.
+Create a new token and copy the Token Value to the index.js file and save the edits. Do NOT enable indexer acknowledgment on the token.
 
 Notes: 
 Recommended that you select a new index and sourcetype when you set up the token. If the index does not exist create a new one.
